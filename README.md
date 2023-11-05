@@ -3,18 +3,26 @@
 Primero se debe hacer la generación de la imagen docker del proyecto, se realiza de la siguiente manera:
 docker build --tag apitwitter
 2. Ir hacia Docker Desktop para visualizar la imagen que se creó
+3. 
 <img width="753" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/671f7ff3-d6ad-4eab-abe3-18c3ce1c8c06">
-                                   3. por medio del comando docker images, confirmamos la creación de la imagen, en este caso "apitwitter"
+
+4. por medio del comando docker images, confirmamos la creación de la imagen, en este caso "apitwitter"
+
 <img width="476" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/b76c0f70-f1ee-4baf-b571-b01dca96289c">
+
 4. Creación de una instancia para el contenedor de la imagen "apitwitter"
 -> Para este caso hacia el puerto 4567 
+
 <img width="955" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/1f51cfff-e2e0-47ad-bd3e-f50cd2f21cf5">
+
 5. Ahora vamos a Docker Desktop para hacer la confirmación de que efectivamente se creó la instancia del contenedor:
+
 ![image](https://github.com/jeforero0315/RepositorioAYGOJen/assets/149447477/987aec2d-61dd-4243-8966-cf19765a7697)
 
 --------------------------------------SEGUNDA PARTE ----------------AWS---------
 se debe subir la imagen a dockerHub y hacer el relacionamiento con los servicios de virtualizacion de AWS. 
 Imagen del proyecto en dockerHub: https://hub.docker.com/r/jeforero0315/sparkprojectjeniffer
+
 -><img width="685" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/a3e41e78-cfe2-4af8-8438-e1642ea84fcd">
 1. Teniendo en este punto el repositorio de dockerHub, se accede a AWS y se hace la creación de la maquina virtual junto con la llave de acceso
 2. Se hizo la conexión hacia la maquina virtual y se instaló docker, teniendo lo anterior se creó una instancia del contenedor de la imagen subida al repositorio en dockerHub.
