@@ -4,7 +4,7 @@ Primero se debe hacer la generación de la imagen docker del proyecto, se realiz
 docker build --tag apitwitter
 2. Ir hacia Docker Desktop para visualizar la imagen que se creó
 <img width="753" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/671f7ff3-d6ad-4eab-abe3-18c3ce1c8c06">
-3. por medio del comando docker images, confirmamos la creación de la imagen, en este caso "apitwitter"
+                                   3. por medio del comando docker images, confirmamos la creación de la imagen, en este caso "apitwitter"
 <img width="476" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/b76c0f70-f1ee-4baf-b571-b01dca96289c">
 4. Creación de una instancia para el contenedor de la imagen "apitwitter"
 -> Para este caso hacia el puerto 4567 
