@@ -1,0 +1,11 @@
+/* Estilos para los tweets */
+#tweets_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tweets_list li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}

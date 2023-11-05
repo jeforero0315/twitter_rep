@@ -1,0 +1,5 @@
+co\edu\escuelaing\test\controller\tweets_controller.class
+co\edu\escuelaing\test\models\tweets.class
+co\edu\escuelaing\test\handler\tweet_handler.class
+co\edu\escuelaing\test\services\tweets_services.class
+co\edu\escuelaing\test\App.class
