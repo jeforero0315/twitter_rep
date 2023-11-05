@@ -6,15 +6,13 @@ docker build --tag apitwitter
 <img width="753" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/671f7ff3-d6ad-4eab-abe3-18c3ce1c8c06">
 3. por medio del comando docker images, confirmamos la creación de la imagen, en este caso "apitwitter"
 <img width="476" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/b76c0f70-f1ee-4baf-b571-b01dca96289c">
-
-
 4. Creación de una instancia para el contenedor de la imagen "apitwitter"
 -> Para este caso hacia el puerto 4567 
 <img width="955" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/1f51cfff-e2e0-47ad-bd3e-f50cd2f21cf5">
 5. Ahora vamos a Docker Desktop para hacer la confirmación de que efectivamente se creó la instancia del contenedor:
 ![image](https://github.com/jeforero0315/RepositorioAYGOJen/assets/149447477/987aec2d-61dd-4243-8966-cf19765a7697)
 
---------------------------------------SEGUNDA PARTE ----------------AWS----------------------------------------
+--------------------------------------SEGUNDA PARTE ----------------AWS---------
 se debe subir la imagen a dockerHub y hacer el relacionamiento con los servicios de virtualizacion de AWS. 
 Imagen del proyecto en dockerHub: https://hub.docker.com/r/jeforero0315/sparkprojectjeniffer
 -><img width="685" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/a3e41e78-cfe2-4af8-8438-e1642ea84fcd">
@@ -28,7 +26,7 @@ Imagen del proyecto en dockerHub: https://hub.docker.com/r/jeforero0315/sparkpro
 <img width="486" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/55537b55-b6fe-416d-ba22-a0e0535ddf84">
 
 
----------------------------LAMBDA-----------------------------------------------------------------
+---------------------------LAMBDA------------------------
 FUNCIÓN CREADA, NOMBRE:TwitterGet
 <img width="630" alt="image" src="https://github.com/jeforero0315/twitter_rep/assets/149447477/f2cf74a1-679e-4968-a629-27e1cbfd43f6">
 FUNCTION OVERVIEW
